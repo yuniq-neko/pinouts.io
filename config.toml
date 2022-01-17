@@ -1,0 +1,12 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "pinouts.io"
+theme = "book"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[params]
+  BookTheme = 'auto'
+  #BookLogo = 'logo.png'
+  BookMenuBundle = '/menu'

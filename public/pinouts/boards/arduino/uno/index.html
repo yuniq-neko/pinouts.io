@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta name="generator" content="Hugo 0.80.0" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Arduino Uno#Board Specifications#MicrocontrollerATmega328PIO Voltage5VInput Voltage / VIN7-12VDigital IO Pins14PWM IO Pins6Analog IO Pins6Max Current per Pin20mAClock Speed16MHzLength68.6mmWidth53.4mmHeight13mmWeight25gPinout#">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Arduino Uno#Board Specifications#MicrocontrollerATmega328PIO Voltage5VInput Voltage / VIN7-12VDigital IO Pins14PWM IO Pins6Analog IO Pins6Max Current per Pin20mAClock Speed16MHzLength68.6mmWidth53.4mmHeight13mmWeight25gPinout#" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/pinouts/boards/arduino/uno/" />
+
+<title>Uno | pinouts.io</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.44110be292c9f873dbe57bd8895d52b387519bad9a89a86ed5c3705e11d6b0d5.css" integrity="sha256-RBEL4pLJ&#43;HPb5XvYiV1Ss4dRm62aiahu1cNwXhHWsNU=">
+<script defer src="/en.search.min.c8b1d63f2fb0677854283806b95de360a892743ba7dc6f022e5ae89ca14f1f29.js" integrity="sha256-yLHWPy&#43;wZ3hUKDgGuV3jYKiSdDun3G8CLlronKFPHyk="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLZVBL2J1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RLZVBL2J1Q');
+</script>
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>pinouts.io</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li><a href="/"><strong>Home</strong></a></li>
+<li><a href="/pinouts/boards/">Boards</a>
+<ul>
+<li><a href="/pinouts/boards/arduino/">Arduino</a>
+<ul>
+<li><a href="/pinouts/boards/arduino/uno/"class=active>Uno</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+<pre>Site Version: 
+ v0.3.1-ALPHA</pre>
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Uno</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#board-specifications">Board Specifications</a></li>
+    <li><a href="#pinout">Pinout</a>
+      <ul>
+        <li><a href="#d0---d13">D0 - D13</a></li>
+        <li><a href="#a0--a1--a2--a3--a4--a5">A0 / A1 / A2 / A3 / A4 / A5</a></li>
+        <li><a href="#sda--scl">SDA / SCL</a></li>
+        <li><a href="#aref">AREF</a></li>
+        <li><a href="#ioref">IOREF</a></li>
+        <li><a href="#reset">RESET</a></li>
+        <li><a href="#3v3">+3V3</a></li>
+        <li><a href="#5v">+5V</a></li>
+        <li><a href="#vin">VIN</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="arduino-uno">
+  Arduino Uno
+  <a class="anchor" href="#arduino-uno">#</a>
+</h1>
+<h2 id="board-specifications">
+  Board Specifications
+  <a class="anchor" href="#board-specifications">#</a>
+</h2>
+<table>
+  <tr>
+    <td>Microcontroller</td>
+    <td>ATmega328P</td>
+  </tr>
+  <tr>
+    <td>IO Voltage</td>
+    <td>5V</td>
+  </tr>
+  <tr>
+    <td>Input Voltage / VIN</td>
+    <td>7-12V</td>
+  </tr>
+  <tr>
+    <td>Digital IO Pins</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>PWM IO Pins</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Analog IO Pins</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Max Current per Pin</td>
+    <td>20mA</td>
+  </tr>
+  <tr>
+    <td>Clock Speed</td>
+    <td>16MHz</td>
+  </tr>
+  <tr>
+    <td>Length</td>
+    <td>68.6mm</td>
+  </tr>
+  <tr>
+    <td>Width</td>
+    <td>53.4mm</td>
+  </tr>
+  <tr>
+    <td>Height</td>
+    <td>13mm</td>
+  </tr>
+  <tr>
+    <td>Weight</td>
+    <td>25g</td>
+  </tr>
+</table>
+<h2 id="pinout">
+  Pinout
+  <a class="anchor" href="#pinout">#</a>
+</h2>
+<p><img src="/uno-pinout.svg"></img></p>
+<h3 id="d0---d13">
+  D0 - D13
+  <a class="anchor" href="#d0---d13">#</a>
+</h3>
+<p>The Uno board has a total of 14 Digital IO pins.
+Pins 3, 5, 6, 9, 10 and 11 have Hardware PWM Capability.
+Each pin can only output up to 40mA max. (Only recommended up to 20mA).
+The total current provided by all pins together can only reach up to 200mA!</p>
+<h3 id="a0--a1--a2--a3--a4--a5">
+  A0 / A1 / A2 / A3 / A4 / A5
+  <a class="anchor" href="#a0--a1--a2--a3--a4--a5">#</a>
+</h3>
+<p>The Uno board has a total of 6 Analog Input pins provided by a internal ADC (Analog to Digital Converter)
+These pins mainly serve as Analog inputs, but can be used as standard Digital IO Pins.</p>
+<h3 id="sda--scl">
+  SDA / SCL
+  <a class="anchor" href="#sda--scl">#</a>
+</h3>
+<p>These pins are dedicated to I2C Communication.</p>
+<h3 id="aref">
+  AREF
+  <a class="anchor" href="#aref">#</a>
+</h3>
+<p>Analog Reference. Provides a voltage reference for Analog Inputs.</p>
+<h3 id="ioref">
+  IOREF
+  <a class="anchor" href="#ioref">#</a>
+</h3>
+<p>Input / Output Reference. Provides a voltage reference with which the microcontroller operates.</p>
+<h3 id="reset">
+  RESET
+  <a class="anchor" href="#reset">#</a>
+</h3>
+<p>Bringing this pin to a logical LOW will cause the microcontroller to reset.</p>
+<h3 id="3v3">
+  +3V3
+  <a class="anchor" href="#3v3">#</a>
+</h3>
+<p>This pin provides regulated 3.3V to power components.</p>
+<h3 id="5v">
+  +5V
+  <a class="anchor" href="#5v">#</a>
+</h3>
+<p>This pin provides regulated 5V to power components.
+(It is possible- but not recommended- to feed 5V in via this pin.)</p>
+<h3 id="vin">
+  VIN
+  <a class="anchor" href="#vin">#</a>
+</h3>
+<p>The UNO board can be powered by 5-20 volts, however Arduino recommends to only use between 7-12 volts. Over this range can make the regulator overheat, and below this range may simply not be enough for the board to run.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#board-specifications">Board Specifications</a></li>
+    <li><a href="#pinout">Pinout</a>
+      <ul>
+        <li><a href="#d0---d13">D0 - D13</a></li>
+        <li><a href="#a0--a1--a2--a3--a4--a5">A0 / A1 / A2 / A3 / A4 / A5</a></li>
+        <li><a href="#sda--scl">SDA / SCL</a></li>
+        <li><a href="#aref">AREF</a></li>
+        <li><a href="#ioref">IOREF</a></li>
+        <li><a href="#reset">RESET</a></li>
+        <li><a href="#3v3">+3V3</a></li>
+        <li><a href="#5v">+5V</a></li>
+        <li><a href="#vin">VIN</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
